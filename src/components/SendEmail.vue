@@ -143,7 +143,6 @@
 
                             <span v-if="status === 'error'" class="font-mono text-sm text-red-600">{{ errorMessage }}</span>
                         </div>
-                    
                 </form>
             </div>
         </div>

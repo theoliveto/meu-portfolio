@@ -24,7 +24,7 @@
           Ver projetos ↓
         </a>
         <a
-          href="https://github.com/seu-usuario"
+          href="https://github.com/theoliveto"
           target="_blank"
           rel="noopener"
           class="inline-flex items-center gap-2 rounded-md border border-line px-5 py-3 font-mono text-sm transition-all hover:-translate-y-0.5 hover:border-ink"

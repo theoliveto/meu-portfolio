@@ -2,10 +2,13 @@
 import SkillRow from './SkillRow.vue'
 
 const skills = [
-  { label: 'Frontend', value: 'React, TypeScript' },
-  { label: 'Backend', value: 'Node.js, Python' },
-  { label: 'Dados', value: 'PostgreSQL, Redis' },
+  { label: 'Frontend', value: 'Vue (Vuetify), React, TS, JS, tailwindcss' },
+  { label: 'Backend', value: 'C# (.NET), Node.js, PHP (Laravel)' },
+  { label: 'Dados', value: 'SQL Server, PostgreSQL & mySQL' },
   { label: 'Infra', value: 'Docker, AWS' },
+  { label: 'Tools', value: 'Git, GitHub, Visual Studio, VS Code, Insomnia' },
+  { label: 'APIs', value: 'REST, JWT, Axios, GraphQL' },
+  { label: 'Práticas', value: 'MVC, Clean Code, DTOs, Repositories' },
 ]
 </script>
 
@@ -15,12 +18,11 @@ const skills = [
       <div>
         <span class="mb-4 block font-mono text-[13px] text-ink-soft">~/sobre-mim</span>
         <p class="max-w-md leading-relaxed text-ink-soft">
-          Escreva aqui um parágrafo curto sobre sua trajetória: como começou a programar, que tipo
-          de problema mais gosta de resolver e o que te diferencia.
+          Desenvolvedor com formação em Análise e Desenvolvimento de Sistemas e experiência em aplicações desktop e web com C#, .NET, ASP.NET, Node.js, VB6 e SQL Server. Atuo na criação de APIs REST e integrações com E-commerce, assinatura eletrônica e órgãos ambientais, desenvolvendo soluções para o setor de gestão de resíduos.
         </p>
+
         <p class="mt-4 max-w-md leading-relaxed text-ink-soft">
-          Adicione um segundo parágrafo sobre o que você busca agora — freelas, vaga CLT, projetos
-          open source — para deixar claro o próximo passo para quem está lendo.
+          Busco oportunidades CLT, freelancer e projetos de desenvolvimento, onde possa aplicar meus conhecimentos, contribuir com soluções eficientes e evoluir continuamente em ambientes que valorizem qualidade, colaboração e inovação.
         </p>
       </div>
       <div>

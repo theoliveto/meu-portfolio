@@ -14,10 +14,6 @@ import ProjectCard from './ProjectCard.vue'
       <div class="flex flex-col">
         <ProjectCard v-for="project in projects" :key="project.slug" :project="project" />
       </div>
-
-      <div class="mt-6 rounded-lg border border-dashed border-line px-4 py-3.5 font-mono text-xs text-ink-soft">
-        // edite <code>src/data/projects.js</code> para trocar pelos seus projetos reais.
-      </div>
     </div>
   </section>
 </template>

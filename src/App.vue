@@ -6,14 +6,18 @@
   import Contact from './components/Contact.vue'
   import AppFooter from './components/AppFooter.vue'
   import SendEmail from './components/SendEmail.vue'
+  import WhatsAppComponent from './components/WhatsAppComponent.vue'
+  import CertificationsSection from './components/CertificationsSection.vue'
 </script>
 
 <template>
   <NavBar />
   <Hero />
   <ProjectList />
+  <CertificationsSection />
   <About />
   <Contact />
   <SendEmail />
   <AppFooter />
+  <WhatsAppComponent phone="5549989167658" />
 </template>
